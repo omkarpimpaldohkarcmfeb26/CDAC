@@ -1,0 +1,15 @@
+1) Does ANSI recognize the data type DATE? 
+
+-- Yes,ANSI recognize the date type 'DATE',and it is used to store 
+   the calender date in the format of'YYYY-MM-DD' Format.
+   Alongside it recognize the date types 'TIME','TIMESTAMP','INTERVAL'.
+
+2) Which subdivision of SQL is used to insert values in tables? 
+
+-- SQL uses the Date manupilation Language (DML) to insert values
+   
+		(DML Commands)
+	1.INSERT
+	2.UPDATE
+	3.DELETE
+	4.SELECT

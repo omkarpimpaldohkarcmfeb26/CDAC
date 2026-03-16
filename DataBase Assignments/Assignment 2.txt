@@ -1,0 +1,22 @@
+1) Which field of the Customers table is the primary key? 
+
+-- In the customer table Cnum is the primary key 
+   As Customer number should not be repeated.
+   But Name ,city ,and ranking can be same that's why these are not 
+   Primary key.
+
+2) What is the 4th column of the Customers table?
+
+-- The 4th colomn of customers table is customer rating
+   which is showing rating of customers.
+
+3) What is another word for row?  For column? 
+
+---In RDBMS another word for row is "TUPLE".
+
+4) Why isn’t it possible to see the first five rows of a table?
+ 
+---It is not possible because rows in a table have no inherent order.
+   You have to specify "Order by".
+
+ 

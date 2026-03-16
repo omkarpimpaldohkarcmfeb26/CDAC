@@ -1,0 +1,33 @@
+use salesdb;
+
+insert into salespeople values(1001,'peel','London',.012);
+insert into salespeople values(1002,'serres','SanJose',.013);
+insert into salespeople values(1004,'motika','London',.011);
+insert into salespeople values(1007,'Rifkin','Barcelona',.012);
+insert into salespeople values(1003,'Axelrod', 'New York',.012);
+select *from selespeople;
+ 
+ create table customers (Cnum int(4),cnum varchar(10), city varchar(10), rating int(4), snum int(4));
+ insert into customers values(2001,'Hoffman','London',100,1001);
+ insert into customers values(2002,'Givoni','Rome',200,1003);
+ insert into customers values(2003,'Liu','San jose',200,1004);
+ insert into customers values(2004,'Grass','Berlin',300,1005);
+ insert into customers values(2001,'Clemens','London',100,1001);
+ insert into customers values(2001,'Cisneros','LSan jose',300,1001);
+ insert into customers values(2001,'Pereira','Rome',100,1001);
+ 
+ create table orders (onum int (4),amt float (7.2),odate date,cnum int (4),snum int (4));
+insert into orders values (3001,18.69,'1990-10-03',2008,1007);
+insert into orders values (3003,767.19,'1990-10-03',2001,1001);
+insert into orders values (3021,1900.10,'1990-10-03',2007,1004);
+insert into orders values (3005,5160.23,'1990-10-03',2003,1002);
+insert into orders values (3006,1008.69,'1990-10-03',2008,1007);
+insert into orders values (3009,1713.40,'1990-10-03',2002,1003);
+select*from orders;
+
+
+
+		
+
+
+

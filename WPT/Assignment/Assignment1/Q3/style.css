@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+header p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+
+.section-title {
+    background-color: #d1d1d1;
+    padding: 5px 10px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Creating the two-column layout for skills */
+.skills-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-grid ul {
+    width: 45%;
+    list-style-type: disc;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 13px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
